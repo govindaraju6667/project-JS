@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flag Details</title>
+    <link rel="stylesheet" href="./style.css">
+    
+</head>
+<body>
+   <div id="main-content">
+        <div>
+            <h2>World Flag🚩 Detils</h2>
+        </div>
+    <div>
+                <form id="myForm">
+                    <input type="submit" value="DisplayFlag" id="addFlag">
+                </form>
+            </div>
+        <div id="search">
+            <input type="text" id="searchHere" placeholder="Search here">
+        </div>
+        <div>
+            <select id="select-option">
+                <option value="nameAsc">Name (Ascending)</option>
+                <option value="nameDesc">Name (Descending)</option>
+                <option value="populationAsc">Population (Ascending)</option>
+                <option value="populationDesc">Population (Descending)</option>
+              </select>
+        </div>
+            
+        
+    </div>
+    
+        <div id="display"></div>
+        <div id="popupbg"></div>
+        <div id="popUp">
+            <span id="closeIcon">&times;</span>
+                <div id = "popupcontainer">
+                 <img id="img"></img>
+                 <p id="content"></p>
+                </div>
+        </div>
+<script type = "module" src = "app.js"></script>
+ 
+</body>
+</html>
